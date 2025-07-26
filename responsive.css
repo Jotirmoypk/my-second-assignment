@@ -6,11 +6,215 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+.theme-color{
+  color: rgba(233, 90, 8, 1);
 
-
+}
+.text-clr-gray{
+  color: rgba(137, 135, 161, 1);
+  
+}
+.text-bold{
+  font-weight:bolder;
+  font-size: ;
+}
+.nav-bar{
+  justify-content: space-between;
+  align-items: center;
 
 }
 .nav-bar-menu{
     list-style: none;
-    
+    gap: 48px;
+  
+}
+.nav-link{
+  text-decoration: none;
+}
+.nav-bar{
+  margin:0 auto;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+.nav-bar, .nav-bar-menu{
+  max width: 1240px;
+align items:center;
+  
+}
+.main-section{
+  max-width: 1140px;
+  height: 461px;
+  margin-top: 110px;
+  margin-left: 150px;
+  margin-left: 150px;
+ 
+
+
+}
+.first-section-left{
+  max-width: 570px;
+  max-height: 270;
+  margin-top: 60px;
+ }
+ .first-headings{
+  font-weight: bold;
+  font-size: 58px;
+  margin-bottom: 10px;
+
+ }
+ .first-section-para{
+  font-weight: 400;
+  font-size: 20px;
+ }
+.first-image-right{
+  max-width: 570px;
+  max-height: 355;
+}
+.our-plant-whole{
+  width: 1140px;
+  height: 138px;
+  
+}
+.our-plant-section{
+  width: 1140px;
+  height: 68px;
+  text-align: center;
+  margin-left: 150px;
+  font-size: 50px;
+  margin-bottom: 16px;
+
+}
+.our-section{
+  color:rgba(233, 90, 8, 1) ;
+}
+
+.plant-para{
+  font-weight: 400;
+  font-size: 20px;
+  width: 888px;
+  height: 54px;
+  text-align: center;
+margin-left: 246px;
+}
+.second-section{
+  width: 1140px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+.card{
+  width: 270px;
+  height: 485px;
+
+}
+.card-title{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.card-price{
+  font-weight: 900;
+  font-size: 20px;
+}
+.card-title, .card-price{
+  text-align: center;
+}
+.shop-now-button{
+  color: aliceblue;
+  font-size: 15px;
+  width: 270px;
+  height: 50px;
+  background-color: rgba(233, 90, 8, 1);
+
+
+}
+.plant-lover{
+  display: flex;
+  margin-top: 210px;
+  width: 1140px;
+  height: 560px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.flower-store,.img{
+  width: 500px;
+  height: 570px; 
+}
+.trusted-icon{
+  width: 286px;
+  height: 286px;
+  position: relative;
+  bottom: 670px;
+  left: 320px;
+
+
+}
+.plant-lover-right{
+  width: 540px;
+  height: 521px;
+  margin-left: 60px;
+  margin-top: 38px;
+  padding-left: 60px;
+
+}
+.plant-lover-heading{
+  font-weight: bold;
+  font-size: 40px;
+}
+.plant-lover-list{
+  margin-top: 20px;
+  font-size: 20px;
+  column-gap: 20px;
+ 
+
+}
+.plant-description{
+  margin-top: 10px;
+  font-size: 20px;
+  column-gap: 20px;
+}
+@media screen and (max-width: 576px){
+  .nav-bar, .nav-bar-menu,.main-section,.second-section
+
+  { flex-direction: column;
+  
+  }
+  .first-image-right{
+    margin-left: 0px;
+    max-width: 100%;
+    align-content: flex-start;
+  }
+  
+}
+.fifth-section{
+  width: 1440px;
+  height: 68px;
+
+}
+.fifth-heading{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.fifth-section-para{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+
 }
